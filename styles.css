@@ -1,0 +1,56 @@
+input {
+  display: block;
+  border: none;
+  width: 300px;
+}
+
+h4 {
+  color: #7e7e7e;
+}
+
+/* this is all for the signin form*/
+.signin-input {
+  margin: 20px;
+  width: 80%;
+  padding: 15px;
+}
+
+.signin-text:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #aaaaaa;
+}
+
+.signin-btn {
+  background-color: #9dd8d4;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.chckbx-button {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  /*I'm having a really hard time figuring 
+  out how to get the label and checkbox
+  next to eachother on the same line, as well as placed
+  into the bottom left corner of the container*/
+}
+
+.chckbx-label {
+  color: #7e7e7e;
+  /*I also don't understand why it's not picking
+  up this text color*/
+}
+
+#signin {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  padding: 30px 100px;
+  border: 200px solid #d47677;
+  background-color: #f0f0f0;
+}
